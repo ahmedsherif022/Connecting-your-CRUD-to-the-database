@@ -137,9 +137,8 @@ Any change made directly in the viewer is immediately visible through the API �
 and vice versa — because both are reading and writing the same `tasks.db` file.
 
 ### Screenshot
-
-<!-- Replace this with your own screenshot of DB Browser showing your tasks table -->
-![Database viewer screenshot](screenshot.png)
+<img width="1620" height="693" alt="download (7)" src="https://github.com/user-attachments/assets/2773d37d-35d0-41d4-86c7-c5c8e802d949" />
+![Uploading download (8).png…]()
 
 ---
 
