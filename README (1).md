@@ -163,31 +163,4 @@ Notes on safety and correctness:
 
 ---
 
-## Assignment Requirements Checklist
 
-- [x] Same CRUD endpoints as the previous (in-memory) assignment
-- [x] Tasks stored in SQLite instead of memory
-- [x] Data survives server restarts
-- [x] Database file created automatically if missing
-- [x] `tasks` table created automatically if missing
-- [x] Three example tasks inserted only on the first run
-- [x] CRUD operations implemented with SQL queries
-- [x] Unknown ids return `404 { "error": "Task not found" }`
-- [x] Invalid requests (missing title) return `400`
-
----
-
-## Glossary
-
-| Term | Meaning |
-|------|---------|
-| **Database** | A system that stores data permanently, even after a program stops running. |
-| **SQLite** | A lightweight SQL database stored in a single file. No separate server required. |
-| **Table** | A collection of related data organized into rows and columns. |
-| **Row** | One record in a table — in this project, one task is one row. |
-| **Column** | A property stored for every row, such as `title` or `done`. |
-| **SQL** | Structured Query Language — used to create, read, update, and delete data. |
-| **Query** | A SQL command sent to a database (SELECT, INSERT, UPDATE, DELETE). |
-| **Primary key** | A column whose value uniquely identifies every row (`id`). |
-| **Persistence** | Data remaining available after the application stops and starts again. |
-| **Schema** | The structure of a database — its tables and columns. |
